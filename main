@@ -1,0 +1,9 @@
+x=int(input('> '))
+
+ver="--- "
+hor="|   "
+z=x+1
+for ch in range(x):
+    print(ver * x)
+    print(hor * z)
+
